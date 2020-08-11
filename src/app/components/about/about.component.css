@@ -1,0 +1,4 @@
+.resume-container {
+    height: calc(100vh - 128px);
+    width: 100vw;
+}

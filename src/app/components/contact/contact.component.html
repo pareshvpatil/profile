@@ -1,0 +1,49 @@
+<div class="contact-container">
+  <div class="personal-info-left contact-form-section">
+    <div class="example-container">
+      <span class="drop-a-line-title">Get in Touch</span><br>
+      <form>
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Your Name</mat-label>
+          <label>
+            <input name="name" matInput [(ngModel)]="name" type="text">
+          </label>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Your Contact</mat-label>
+          <label>
+            <input name="mobile" matInput [(ngModel)]="mobile" type="tel">
+          </label>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Message</mat-label>
+          <label>
+            <textarea matInput name="message" [(ngModel)]="message"></textarea>
+          </label>
+        </mat-form-field>
+        <div class="contact-form-action-container">
+          <button (click)="sendMailWithMessage()" mat-button class="mat-primary drop-a-line-submit-button">
+            <span>Connect Now</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="personal-info-right contact-details-section">
+    <mat-list class="personal-info-list">
+      <div class="personal-info-title personal-info-item">This is Me</div>
+      <mat-list-item class="personal-info-item">
+        <mat-icon class="personal-info-icon">email</mat-icon> <span class="personal-info-text" (click)="openMailClient()">paresh.patil1305@gmail.com</span>
+      </mat-list-item>
+      <mat-list-item class="personal-info-item">
+        <mat-icon class="personal-info-icon">phone</mat-icon> <span>+91 80874 97099</span>
+      </mat-list-item>
+      <mat-list-item class="personal-info-item">
+        <mat-icon svgIcon="github-circle" class="personal-info-icon"></mat-icon> <span class="personal-info-text" (click)="openGithubProfile()">https://github.com/pareshvpatil</span>
+      </mat-list-item>
+      <mat-list-item class="personal-info-item">
+        <mat-icon svgIcon="linkedin-box" class="personal-info-icon"></mat-icon> <span class="personal-info-text" (click)="openLinkedInProfile()">https://www.linkedin.com/in/paresh-v-patil/</span>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>

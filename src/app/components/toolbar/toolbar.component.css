@@ -1,0 +1,46 @@
+.logo-style {
+  height: 50px;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.profile-name {
+  padding-left: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: xx-large;
+}
+
+.toolbar-button {
+  margin-left: 10px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.toolbar-button-active {
+  color: #00d500;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.toolbar-button:hover {
+  color: #00d500;
+}
+
+.main-toolbar {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-content-quote {
+  display: flex;
+  flex: 1 1 auto;
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  font-size: 48px;
+  font-family: 'Quicksand', sans-serif;
+  align-content: center;
+  justify-content: center;
+}
