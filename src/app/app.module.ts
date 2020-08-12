@@ -17,6 +17,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import {SafePipe} from "./common/SafePipe";
 import { ResumeComponent } from './components/resume/resume.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ResumeComponent } from './components/resume/resume.component';
     ProjectsComponent,
     ContactComponent,
     SafePipe,
-    ResumeComponent
+    ResumeComponent,
+    FooterComponent
   ],
     imports: [
         BrowserModule,

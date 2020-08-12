@@ -2,6 +2,14 @@
   height: 50px;
 }
 
+.logo-style:hover {
+  cursor: pointer;
+}
+
+.logo-style:focus {
+  outline: none !important;
+}
+
 .toolbar-spacer {
   flex: 1 1 auto;
 }
@@ -31,6 +39,10 @@
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  z-index: 999;
 }
 
 .main-content-quote {
