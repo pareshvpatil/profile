@@ -1,3 +1,6 @@
+<div class="download-button-holder">
+  <mat-icon matTooltip="Click here to download Resume in PDF format" class="download-button" (click)="downloadResume()">cloud_download</mat-icon>
+</div>
 <div class="resume-container">
   <div class="resume-basic-info resume-section">
     <div class="resume-pic">
@@ -214,7 +217,7 @@
   <div class="resume-section-title">
     Contact Details
   </div>
-  <div class="contact-details resume-section">
+  <div *ngIf="!toPrint" class="contact-details resume-section">
     <div class="contact-point">
       <mat-icon svgIcon="github-circle" class="contact-icon color-github" (click)="navigateTo('github')"></mat-icon>
     </div>
@@ -229,6 +232,24 @@
     </div>
     <div class="contact-point">
       <mat-icon svgIcon="whatsapp" class="contact-icon color-whatsapp" (click)="navigateTo('whatsapp')"></mat-icon>
+    </div>
+  </div>
+  <div *ngIf="toPrint" class="contact-details-print resume-section">
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="github-circle" class="contact-icon color-github" (click)="navigateTo('github')"></mat-icon>
+      <span class="contact-point-location">https://www.github.com/pareshvpatil</span>
+    </div>
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="linkedin-box" class="contact-icon color-linkedin" (click)="navigateTo('linkedin')"></mat-icon>
+      <span class="contact-point-location">https://www.linkedin.com/in/paresh-v-patil</span>
+    </div>
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="email" class="contact-icon color-gmail" (click)="navigateTo('gmail')"></mat-icon>
+      <span class="contact-point-location">com.deftlad@gmail.com</span>
+    </div>
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="whatsapp" class="contact-icon color-whatsapp" (click)="navigateTo('whatsapp')"></mat-icon>
+      <span class="contact-point-location">+91-808-749-7099</span>
     </div>
   </div>
   <mat-divider></mat-divider>

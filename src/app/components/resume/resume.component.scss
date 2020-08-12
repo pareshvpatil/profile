@@ -26,7 +26,7 @@
   font-family: 'Work Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -193,13 +193,40 @@
   justify-content: center;
 }
 
+.contact-details-print {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
 .contact-point {
   height: 42px;
   width: 42px;
   border-radius: 50%;
   justify-content: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 1em 2em;
+}
+
+.contact-point-print {
+  height: 42px;
+  border-radius: 50%;
+  margin: 1em auto;
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.contact-point-location {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3b3b3b;
+  vertical-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1.5em;
 }
 
 .contact-icon {
@@ -231,4 +258,24 @@
 
 .color-whatsapp {
   color: #0cc243;
+}
+
+.download-button-holder {
+  position: fixed;
+  top: calc(2em + 54px);
+  right: 2em;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.download-button {
+  height: 48px;
+  width: 48px;
+  font-size: 48px;
+  color: #008a00;
+}
+
+.download-button:hover {
+  cursor: pointer;
 }

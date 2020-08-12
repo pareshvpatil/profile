@@ -9,6 +9,8 @@ declare type SocialLinks = 'github' | 'linkedin' | 'twitter' | 'gmail' | 'whatsa
 })
 export class ResumeComponent implements OnInit {
 
+  toPrint: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
@@ -32,5 +34,9 @@ export class ResumeComponent implements OnInit {
         window.open("https://wa.me/918087497099")
         break;
     }
+  }
+
+  downloadResume() {
+    window.open('assets/PVP-RESUME.pdf');
   }
 }
