@@ -1,0 +1,256 @@
+<div class="download-button-holder">
+  <mat-icon matTooltip="Click here to download Resume in PDF format" class="download-button" (click)="downloadResume()">cloud_download</mat-icon>
+</div>
+<div class="resume-container">
+  <div class="resume-basic-info resume-section">
+    <div class="resume-pic">
+      <img class="img-resume-pic" src="assets/pvp-logo-dark-square.png" alt="Paresh">
+    </div>
+    <div class="resume-basic-info-content">
+      <p class="resume-title">Paresh V Patil</p>
+      <span class="resume-subtitle">
+        4+ Years of experience<br>
+        MIT, Pune - Bachelor of Engineering (E&TC) - Aug 2012 - May 2016
+      </span>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="resume-section-title">
+    Skills
+  </div>
+  <div class="resume-skills resume-section">
+    <div class="resume-skills-content">
+      <mat-list class="resume-skill-list">
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">Languages: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">Java</span>,
+            <span class="skill-awesome">NodeJs</span>,
+            <span class="skill-awesome">Typescript</span>,
+            <span class="skill-awesome">Javascript</span>,
+            <span class="skill-good">SQL</span>,
+            <span class="skill-ok">Python</span>,
+            <span class="skill-good">Shell</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">Frameworks: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">Spring Boot</span>,
+            <span class="skill-awesome">Node JS with Express</span>,
+            <span class="skill-awesome">TSed</span>,
+            <span class="skill-awesome">Angular</span>,
+            <span class="skill-good">Handlebars</span>,
+            <span class="skill-good">Freemarker</span>,
+            <span class="skill-ok">Thymeleaf</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">Distributed Services: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">Consul</span>,
+            <span class="skill-good">Ribbon</span>,
+            <span class="skill-ok">Sleuth</span>,
+            <span class="skill-good">Zipkin</span>,
+            <span class="skill-awesome">Hystrix</span>,
+            <span class="skill-awesome">Prometheus</span>,
+            <span class="skill-good">Distributed Caches (Redis, Hazelcast)</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">GCP: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">Compute Engine</span>,
+            <span class="skill-good">GKE</span>,
+            <span class="skill-good">Network / VPC</span>,
+            <span class="skill-awesome">Data Flow</span>,
+            <span class="skill-awesome">Pub/Sub</span>,
+            <span class="skill-awesome">Cloud Functions</span>,
+            <span class="skill-good">Spanner</span>,
+            <span class="skill-good">BigQuery</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">AWS: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">EC2</span>,
+            <span class="skill-awesome">Lambda</span>,
+            <span class="skill-awesome">ECS</span>,
+            <span class="skill-good">EKS</span>,
+            <span class="skill-awesome">S3</span>,
+            <span class="skill-awesome">SNS</span>,
+            <span class="skill-good">SQS</span>,
+            <span class="skill-good">Redshift</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">Build Tools: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">Maven</span>,
+            <span class="skill-awesome">Gradle</span>,
+            <span class="skill-awesome">npm</span>,
+            <span class="skill-awesome">yarn</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">DevOps Tools: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">Jenkins</span>,
+            <span class="skill-good">Docker</span>,
+            <span class="skill-good">Kubernetes</span>,
+            <span class="skill-ok">Ansible</span>
+          </span>
+        </mat-list-item>
+        <mat-list-item class="resume-skill-list-entry">
+          <span class="resume-skill-key">Testability Frameworks: </span>
+          <span class="resume-skill-value">
+            <span class="skill-awesome">JUnit</span>,
+            <span class="skill-awesome">JMockit</span>,
+            <span class="skill-awesome">Mockito</span>,
+            <span class="skill-good">Wiremock</span>,
+            <span class="skill-good">Spock</span>,
+            <span class="skill-good">Sinon</span>,
+            <span class="skill-good">Mocha</span>
+          </span>
+        </mat-list-item>
+      </mat-list>
+    </div>
+    <div class="resume-technologies">
+      <img class="img-resume-technologies" src="assets/technologies-vertical.png" alt="Technologies">
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="resume-section-title">
+    Projects
+  </div>
+  <div class="resume-projects resume-section">
+    <div class="resume-subsection-title">
+      Measured Inc: Cross-Channel Marketing Measurement & Analytics
+    </div>
+    <div class="resume-subsection-subtitle">
+      Full stack individual contributor building lambdas to process data of 35+ clients across multiple redshift clusters.
+      Development in Directed Acyclic Graph based component monitoring system in NodeJS that reports health of 200+ processes and custom defined components.
+      Hands-on experience in deployment tools in CI-CD pipelines in Jenkins, EKS, ECS tasks and lambdas.
+    </div>
+    <div class="resume-projects-row">
+      <div class="resume-project">
+        <div class="project-title">
+          Component Monitor
+        </div>
+        <div class="project-desc">
+          Event based component health monitor with configurable health check metrics
+        </div>
+      </div>
+      <div class="resume-project">
+        <div class="project-title">
+          Custom API Gateway
+        </div>
+        <div class="project-desc">
+          Custom API gateway with user and group level access-control and unified interface
+        </div>
+      </div>
+    </div>
+    <div class="resume-projects-row">
+      <div class="resume-project">
+        <div class="project-title">
+          Facebook Ads Experimenter
+        </div>
+        <div class="project-desc">
+          Execution of Experiments with various split types and studies on clients' Facebook ads
+        </div>
+      </div>
+      <div class="resume-project">
+        <div class="project-title">
+          Platform Orchestrator
+        </div>
+        <div class="project-desc">
+          Orchestrator service with configurable triggers, events and schedules for process execution
+        </div>
+      </div>
+    </div>
+    <div class="resume-subsection-title">
+      Vuclip Inc: Video OTT Platform
+    </div>
+    <div class="resume-subsection-subtitle">
+      Individual Contributor in Platform team designing and implementing microservices for a scale of 80+ million users.
+      Microservices development using Google APIs like Google MemoryStore, Google Spanner, Google Cloud SQL, Pub-Sub, Google Dataflow Pipeline, Google BigQuery, etc.
+      Hands-on experience in deployment tools in CI-CD pipeline such as Jenkins, Docker, Kubernetes, Harness.
+    </div>
+    <div class="resume-projects-row">
+      <div class="resume-project">
+        <div class="project-title">
+          Subscription Services using Ads Promotion
+        </div>
+        <div class="project-desc">
+          Eco-system to cater to user specific customized UI experience and billing flow with real time flow control
+        </div>
+      </div>
+      <div class="resume-project">
+        <div class="project-title">
+          BAAS (Billing As A Service)<br><br>
+        </div>
+        <div class="project-desc">
+          Billing Interface to manage App Subscription Models catering to billing partner agnostic subscription bundles and billing APIs
+        </div>
+      </div>
+    </div>
+    <div class="resume-projects-row">
+      <div class="resume-project">
+        <div class="project-title">
+          User Management
+        </div>
+        <div class="project-desc">
+          Managing 30M+ OTT users’ cross-device workflow through login, subscription and video watch history synchronization
+        </div>
+      </div>
+      <div class="resume-project">
+        <div class="project-title">
+          Dataflow Pipeline
+        </div>
+        <div class="project-desc">
+          Log Management for 100+ microservices using pub/sub
+        </div>
+      </div>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="resume-section-title">
+    Contact Details
+  </div>
+  <div *ngIf="!toPrint" class="contact-details resume-section">
+    <div class="contact-point">
+      <mat-icon svgIcon="github-circle" class="contact-icon color-github" (click)="navigateTo('github')"></mat-icon>
+    </div>
+    <div class="contact-point">
+      <mat-icon svgIcon="linkedin-box" class="contact-icon color-linkedin" (click)="navigateTo('linkedin')"></mat-icon>
+    </div>
+    <div class="contact-point">
+      <mat-icon svgIcon="twitter" class="contact-icon color-twitter" (click)="navigateTo('twitter')"></mat-icon>
+    </div>
+    <div class="contact-point">
+      <mat-icon svgIcon="email" class="contact-icon color-gmail" (click)="navigateTo('gmail')"></mat-icon>
+    </div>
+    <div class="contact-point">
+      <mat-icon svgIcon="whatsapp" class="contact-icon color-whatsapp" (click)="navigateTo('whatsapp')"></mat-icon>
+    </div>
+  </div>
+  <div *ngIf="toPrint" class="contact-details-print resume-section">
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="github-circle" class="contact-icon color-github" (click)="navigateTo('github')"></mat-icon>
+      <span class="contact-point-location">https://www.github.com/pareshvpatil</span>
+    </div>
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="linkedin-box" class="contact-icon color-linkedin" (click)="navigateTo('linkedin')"></mat-icon>
+      <span class="contact-point-location">https://www.linkedin.com/in/paresh-v-patil</span>
+    </div>
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="email" class="contact-icon color-gmail" (click)="navigateTo('gmail')"></mat-icon>
+      <span class="contact-point-location">com.deftlad@gmail.com</span>
+    </div>
+    <div [className]="toPrint ? 'contact-point-print' : 'contact-point'">
+      <mat-icon svgIcon="whatsapp" class="contact-icon color-whatsapp" (click)="navigateTo('whatsapp')"></mat-icon>
+      <span class="contact-point-location">+91-808-749-7099</span>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+</div>

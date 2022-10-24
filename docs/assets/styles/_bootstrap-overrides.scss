@@ -1,0 +1,126 @@
+@import "node_modules/bootstrap/scss/functions";
+// stylelint-disable value-keyword-case, scss/dollar-variable-default
+$font-family-sans-serif: inter, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// stylelint-enable value-keyword-case, scss/dollar-variable-default
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #c4c4c4 !default;
+$gray-500: #979797 !default;
+$gray-600: #6c757d !default;
+$gray-700: #4a5159 !default;
+$gray-800: #31383f !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+$blue: #7068f4 !default;
+$sapphire: #38b6ff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$rose: #bd5091 !default;
+$pink: #ef5675 !default;
+$red: #e55c5c !default;
+$orange: #ff764a !default;
+$yellow: #ffde00 !default;
+$green: #96c670 !default;
+$teal: #20c997 !default;
+$cyan: #a2c7e9 !default;
+$secondary-dark: #4a5159 !default;
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$tertiary: $orange !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $secondary-dark !default;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+) !default;
+
+$colors: (
+  "blue": $blue,
+  "sapphire": $sapphire,
+  "indigo": $indigo,
+  "purple": $purple,
+  "rose": $rose,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800
+) !default;
+
+$primary: $blue !default;
+$secondary: $gray-500 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-700 !default;
+
+$body-color: $gray-800 !default;
+
+$min-contrast-ratio: 2 !default;
+$blue-50: #e9eef5 !default;
+$blue-100: #c8d5e6 !default;
+$blue-200: #a4b9d6 !default;
+$blue-300: #7f9cc5 !default;
+$blue-400: #6387b8 !default;
+$blue-500: #4872ac !default;
+$blue-600: #416aa5 !default;
+$blue-700: #385f9b !default;
+$blue-800: #305592 !default;
+$blue-900: #214282 !default;
+$blue-A100: #c0d4ff !default;
+$blue-A200: #8db1ff !default;
+$blue-A400: #5a8eff !default;
+$blue-A700: #417cff !default;
+$sapphire-100: tint-color($sapphire, 80%) !default;
+$sapphire-200: tint-color($sapphire, 60%) !default;
+$sapphire-300: tint-color($sapphire, 40%) !default;
+$sapphire-400: tint-color($sapphire, 20%) !default;
+$sapphire-500: $sapphire !default;
+$sapphire-600: shade-color($sapphire, 20%) !default;
+$sapphire-700: shade-color($sapphire, 40%) !default;
+$sapphire-800: shade-color($sapphire, 60%) !default;
+$sapphire-900: shade-color($sapphire, 80%) !default;
+$rose-100: tint-color($rose, 80%) !default;
+$rose-200: tint-color($rose, 60%) !default;
+$rose-300: tint-color($rose, 40%) !default;
+$rose-400: tint-color($rose, 20%) !default;
+$rose-500: $rose !default;
+$rose-600: shade-color($rose, 20%) !default;
+$rose-700: shade-color($rose, 40%) !default;
+$rose-800: shade-color($rose, 60%) !default;
+$rose-900: shade-color($rose, 80%) !default;
+
+// bootstrap overrides
+
+$font-size-base: 1rem !default;
+.table {
+  --bs-table-striped-bg: #fcfcfc;
+  --bs-table-hover-bg: #e9ecef;
+}
+
+.table-secondary {
+  --bs-table-bg: #f8f9fa;
+}

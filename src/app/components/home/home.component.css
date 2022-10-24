@@ -1,0 +1,33 @@
+.main-content-quote {
+  display: flex;
+  flex: 1 1 auto;
+  text-align: center;
+  height: calc(100vh - 192px);
+  justify-self: center;
+  color: black;
+  font-size: 48px;
+  font-family: 'Zeyada', cursive;
+  align-content: center;
+  justify-content: center;
+}
+
+.main-quote-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content-scroller {
+  height: 64px;
+  margin-top: 32px;
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.scroll-img {
+  font-size: 54px;
+}
+
+.scroll-img:hover {
+  cursor: pointer;
+}

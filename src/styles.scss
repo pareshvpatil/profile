@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Material+Icons');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Comfortaa|Quicksand|Zeyada|Audiowide|Averia+Serif+Libre|Bree+Serif|Bungee|IBM+Plex+Sans:100|IM+Fell+English+SC|Quantico');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "profile-theme.scss";
+
+.profile-icon {
+  padding: 5px;
+}
+
+.profile-spacer {
+  flex: 1 1 auto;
+}
+
+html {
+  color: black;
+  background-color: #fff;
+}
+
+body {
+  margin: 0; /* full-width */
+}
+
+::selection {
+  background: 50% #440084;
+  color: white;
+}
+::-moz-selection {
+  background: #440084; /* Gecko Browsers */
+}

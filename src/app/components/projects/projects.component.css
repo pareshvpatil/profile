@@ -1,0 +1,50 @@
+.projects-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.project-row, .project-row-reverse {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.project-row-reverse {
+  flex-flow: row-reverse;
+}
+
+.project-illustration, .project-details {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.illustration-img {
+  max-height: 640px;
+  max-width: 48vw;
+}
+
+.project-card {
+  box-shadow: none;
+  padding: 0;
+}
+
+.project-title {
+  font-family: 'Crimson Pro', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.project-brief {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.project-content {
+  font-family: 'Crimson Text', serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #464646;
+}
