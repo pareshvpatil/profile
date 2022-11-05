@@ -1,4 +1,10 @@
-markdown > p, ul > li, i, em, strong, a, b {
+markdown > p,
+ul > li,
+i,
+em,
+strong,
+a,
+b {
   font-family: 'Merriweather', serif;
   font-size: 1.15rem;
   letter-spacing: 0.75px;
@@ -6,7 +12,7 @@ markdown > p, ul > li, i, em, strong, a, b {
 }
 
 blockquote {
-  background: rgba($primary,.14);
+  background: rgba($primary, 0.14);
   border-left: 0.5rem solid $primary;
   border-radius: 0.5rem;
   color: $secondary-dark;
@@ -14,13 +20,41 @@ blockquote {
   padding: 1rem 1.25rem;
 }
 
-markdown > p, ul:first-of-type {
+markdown > p,
+ul:first-of-type {
   margin-bottom: 2rem !important;
   margin-top: 2rem !important;
 }
 
-markdown > h1, h2, h3, h4, h5, h6 {
+markdown > ul > li {
+  margin-bottom: 1rem;
+}
+
+markdown > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 2rem;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700 !important;
+}
+
+.blog-card {
+  text-decoration: none !important;
+  transition: box-shadow 200ms ease-in;
+  transition: scale 100ms ease-in-out;
+  margin: 1rem;
+}
+
+.blog-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.09);
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.blog-summary {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
 }
