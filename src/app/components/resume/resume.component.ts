@@ -37,6 +37,6 @@ export class ResumeComponent implements OnInit {
   }
 
   downloadResume() {
-    window.open('assets/PVP-RESUME.pdf');
+    window.open('assets/paresh-v-patil-resume.pdf');
   }
 }
